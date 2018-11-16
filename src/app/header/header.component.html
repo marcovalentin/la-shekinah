@@ -1,0 +1,28 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg" class="navbar-light fixed-top" [containerInside]="true" id="mainNav">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" routerLink="/home">La Shekinah</a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links class="navbar-collapse">
+  
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/about" routerLinkActive="active">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/contact" routerLinkActive="active">Nous trouver</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/school" routerLinkActive="active">L'école</a>
+              </li>
+        </ul>
+        <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
