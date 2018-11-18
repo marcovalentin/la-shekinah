@@ -7,9 +7,3 @@
 @import "contact.scss";
 @import "footer.scss";
 @import "bootstrap-overrides.scss";
-
-section.contact, section.director {
-    p, a {
-        color: $cyan;
-    }
-}

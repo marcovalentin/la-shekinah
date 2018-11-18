@@ -20,33 +20,103 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-        <div class="card" style="width: 18rem; height: 100%;">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3 text-center">
+        <div class="card" style="width: 20rem; height: 100%;">
           <img class="card-img-top" src="./assets/images/team/team-2.jpg">
           <div class="card-body">
             <h5 class="card-title">Patrick</h5>
-            <p class="card-text">Patrick est prof de français, bonjour patrick</p>
+            <p class="card-text">Patrick est prof de français</p>
             </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card" style="width: 18rem; height: 100%;">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3 text-center">
+          <div class="card" style="width: 20rem; height: 100%;">
             <img class="card-img-top" src="./assets/images/team/team-3.jpg">
             <div class="card-body">
               <h5 class="card-title">Jean</h5>
-              <p class="card-text">Jean est prof de sport, bonjour jean</p>
+              <p class="card-text">Jean est prof de sport/p>
               </div>
           </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card" style="width: 18rem; height: 100%;">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3 text-center">
+          <div class="card" style="width: 20rem; height: 100%;">
             <img class="card-img-top" src="./assets/images/team/team-1.jpg">
             <div class="card-body">
               <h5 class="card-title">Ursules</h5>
-              <p class="card-text">Ursules est prof d'histoire, bonjour Ursules</p>
+              <p class="card-text">Ursules est prof d'histoire</p>
               </div>
           </div>
       </div>
     </div>
   </div>
+</section>
+
+<section id="team" class="team">
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 mb-5">
+          <h2>Les classes</h2>
+        </div>
+      </div>
+      <div class="row">
+        <mat-accordion class="col mx-auto pb-5 text-info">
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="card-header">
+              <mat-panel-title>
+                6eme
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p class="card-body">La classe de 6ème est accessible à tous.</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+              <mat-expansion-panel-header class="card-header">
+                <mat-panel-title>
+                  5eme
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p class="card-body">La classe de 5ème est accessible à tous.</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+              <mat-expansion-panel-header class="card-header">
+                <mat-panel-title>
+                  4eme
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p class="card-body">La classe de 4ème est accessible à tous.</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+              <mat-expansion-panel-header class="card-header">
+                <mat-panel-title>
+                  3eme
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p class="card-body">La classe de 3ème est accessible à tous.</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+              <mat-expansion-panel-header class="card-header">
+                <mat-panel-title>
+                  Seconde
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p class="card-body">La classe de seconde est accessible à tous.</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+              <mat-expansion-panel-header class="card-header">
+                <mat-panel-title>
+                  Première
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p class="card-body">La classe de première est accessible à tous.</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel class="card" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+              <mat-expansion-panel-header class="card-header">
+                <mat-panel-title>
+                  Terminale
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p class="card-body">La classe de terminale est accessible à tous.</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>    
+    </div>
 </section>

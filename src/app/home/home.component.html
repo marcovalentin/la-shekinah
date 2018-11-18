@@ -6,7 +6,7 @@
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="site-heading mb-5">
           <h1>Lycée la Shekinah</h1>
-          <span class="subheading">Le lycée du saaale</span>
+          <span class="subheading">Lycée privée de la 6ème à la Terminale</span>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
                   <img class="img-fluid rounded-circle" src="./assets/images/team/team-4.jpg">
                 </div>
                 <div class="col-sm-9 mt-5">
-                  <p>
+                  <p class="text-info">
                     Cette école aide les enfants en difficulté à progresser en les encourageant à persévérer.
                     Nous leur apprenons des valeurs importantes pour réussir dans la vie.
                   </p>
@@ -42,5 +42,31 @@
               </div>
             </blockquote>
           </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="news" class="news">
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 mb-5">
+          <h2>Actualités</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3" *ngFor="let article of mArticles">
+          <div class="card mb-3" style="height: 100%;">
+              <img class="card-img-top" src={{article.urlToImage}} alt="News">
+              <div class="card-body">
+                <h5 class="card-title text-info">{{article.title}}</h5>
+                <p class="card-text">{{article.description}}</p>
+                <p class="card-text">
+                  <a href={{article.url}} target="_blank">Voir plus...</a>
+                </p>
+              </div>
+          </div> 
+        </div>
+      </div>
     </div>
 </section>
